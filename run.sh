@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd /Users/daniel/projects/mcpcouncils
+cd /full/path/to/project
 npm run start
