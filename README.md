@@ -26,3 +26,25 @@ Add the following to the config document:
 (shell script just ensures that Claude Desktop is in the right directory when trying to start the MCP server)
 
 You should be able to ask Claude to fetch you a list of councils using the "councils" MCP service.
+
+## Testing with mcptools
+
+Install the [mcptools command line tool](https://github.com/f/mcptools).
+
+In the root of the project start an interactive shell with
+
+```sh
+mcptools shell npm run start
+
+#mcp > 
+```
+
+You can then issue commands like
+
+```sh
+tools #get a list of available tools
+```
+
+```sh
+list_councils #get a list of councils
+```
